@@ -93,7 +93,7 @@ body {
 
   /* add a transition on the position1 div */
   .p1, .p2, .p3, .p4 {
-    // transition: all 1.5s;
+    transition: all 1.5s;
   }
 }
 
@@ -144,6 +144,7 @@ button {
   border-color: transparent transparent transparent steelblue;
   transition: all 100ms ease-in-out;
   transform: scale(0.75);
+  background-color: none;
 }
 
 .pause {
